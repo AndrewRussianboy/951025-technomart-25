@@ -4,7 +4,7 @@ body {
     font-family: 'Cuprum', Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
-    font-weight: 400;
+    font-weight: normal;
     color: #000000;
 }
 
@@ -16,14 +16,22 @@ a {
     font-size: 17px;
     line-height: 18px;
     color: #ffffff;
-
+    
     background-color: #293449;
+    width: 100%;
+}
+
+.container-top {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .search-form input {
     color: #ffffff;
     background-color: transparent;
     border: none;
+    width: 270px;
 }
 
 .search-form input:hover {
@@ -36,8 +44,16 @@ a {
 }
 
 .products-navigation {
+    margin: 0;
+    padding: 0;
+
     list-style: none;
-    color: #ffffff
+    color: #ffffff;
+    display: flex;
+}
+
+.products-navigation li {
+    width: 150px;
 }
 
 .products-navigation a {
@@ -65,15 +81,26 @@ a {
     background-color: #518534;
 }
 
-.short-description,
-.call {
+.short-description {
     font-size: 16px;
     line-height: 23px;
     color: #ee3643;
 }
 
+.short-description {
+    font-style: italic;
+    font-weight: normal;
+}
+
 .call {
+    font-size: 21px;
+    font-weight: normal;
+    color: #ee3643;
+
     border: 2px solid #ffffff;
+
+    margin: 0;
+    padding: 0;
 }
 
 .header-address {
@@ -84,12 +111,22 @@ a {
 
 .container-middle-header {
     background-color: #f3f7f8;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.container-middle {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .main-navigation {
     font-size: 17px;
     line-height: 17px;
     color: #ffffff;
+    width: 940px;
+    margin: 0 auto;
     
     background-color: #32425c;
 }
@@ -97,6 +134,16 @@ a {
 .user-navigation a,
 .logged-in a{
     background-color: #ffffff;
+}
+
+.site-navigation {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .site-navigation,
@@ -155,10 +202,14 @@ a {
 }
 
 .pop-section {
-    font-size: 30px;
-    line-height: 30px;
+    font-weight: normal;
     text-transform: uppercase;
     color: #32425c;
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 
     background-color: #f9f5f0;
 }
@@ -169,6 +220,12 @@ a {
     color: #ffffff;
 
     background-color: #ee3643;
+}
+
+.pop-section .pop {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
 }
 
 .perf {
@@ -197,12 +254,54 @@ a {
     list-style: none;
 }
 
-.services-delivery {
+.services-delivery-container {
     background-color: #f4f8f9;
+    width: 100%;
+    
+}
+
+.services-delivery {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.services-name {
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.delivery-name {
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #32425c;
+}
+
+.services-description,
+.delivery-description {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.garanty-section,
+.credit-section {
+    display: none;
 }
 
 .offers {
     list-style: none;
+}
+
+.company-contacts-container {
+    display: flex;
+    width: 940px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 85px;
 }
 
 .company-technomart h2,
@@ -211,6 +310,7 @@ a {
     line-height: 30px;
     color: #000000;
     text-transform: uppercase;
+    font-weight: normal;
 }
 
 .company-technomart p,
@@ -224,6 +324,7 @@ a {
     font-size: 14px;
     line-height: 18px;
     color: #ffffff;
+    text-transform: uppercase;
 
     background-color: #ee3643;
 } 
@@ -234,29 +335,57 @@ a {
     list-style: none;
 }
 
+.container{
+  width: 940px;
+  margin: 0 auto;
+}
+
 .page-title {
     font-size: 30px;
     line-height: 30px;
     color: #32425c;
     text-transform: uppercase;
+    font-weight: normal;
+    min-height: 90px;
+    
+    margin: 0 auto;
+    margin-bottom: 20px;
 
     background-color: #f2f6f8;
 }
 
 .breadcrumbs {
+    font-family: 'PT Sans', sans-serif;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
 }
 
 .breadcrumbs a{
     font-size: 13px;
     line-height: 18px;
+    text-transform: uppercase;
     color: #000000;
 }
 
 .breadcrumbs-current {
     font-size: 13px;
     line-height: 18px;
+    text-transform: uppercase;
     color: #000000;
+}
+
+.catalog-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters {
+    width: 220px;
 }
 
 .filter fieldset {
@@ -284,10 +413,23 @@ a {
 
 .catalog-list {
     list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+}
+
+.catalog-list-inner {
+    width: 700px;
 }
 
 .catalog-item {
+    width: 220px;
     border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
 }
 
 .catalog-item h3 {
@@ -308,15 +450,41 @@ a {
     background-color: #ee3643;
 }
 
+.makers-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 940px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.maker-logo {
+    width: 220px;
+    min-height: 145px;
+    border: 1px solid #e5e5e5;
+}
+
 .pagination-list {
     list-style: none;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+    width: 285px;
 }
 
 .pagination-item a{
-    font-size: 13px;
-    line-height: 18px;
-    color: #000000;
-    border: 1px solid #e5e5e5;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  border: 1px solid #e5e5e5;
 }
 
 .pagination-item a:hover {
@@ -341,6 +509,7 @@ a {
 
 .about-tools {
     background-color: #f2f6f8;
+    width: 100%;
 }
 
 .about-tools h2 {
@@ -383,6 +552,13 @@ a {
     background-color: #32425c;
 }
 
+.site-navigation-top {
+    width: 550px;
+    margin: 0;
+    padding: 0;
+    padding-left: 170px;
+}
+
 .site-navigation-top a:hover,
 .site-navigation-middle a:hover {
     background-color: #32425c;
@@ -401,6 +577,12 @@ a {
     text-decoration: none;
 }
 
+.site-navigation-middle {
+    width: 525px;
+    margin: 0;
+    padding:0;
+}
+
 .site-navigation-middle a{
     color: #ffd180;
 }
@@ -415,8 +597,16 @@ a {
     font-size: 16px;
     line-height: 18px;
     color: #ffffff;
+    width: 100%;
 
     background-color: #293449;
+}
+
+.container-low {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
 }
 
 .social-links {
