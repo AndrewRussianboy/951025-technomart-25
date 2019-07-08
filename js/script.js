@@ -26,7 +26,6 @@ window.addEventListener("keydown", function (evt) {
 });
 
 
-
 var mapLink = document.querySelector(".open-map");
 
 var mapPopup = document.querySelector(".modal-map");
@@ -41,7 +40,6 @@ mapClose.addEventListener("click", function (evt) {
     evt.preventDefault();
     mapPopup.classList.remove("modal-show");
 });
-
 
 
 var cartLink = document.querySelector(".buy");
