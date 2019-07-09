@@ -1,7 +1,7 @@
 body {
     margin: 0;
 
-    font-family: 'Cuprum', Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
     font-weight: normal;
@@ -369,7 +369,7 @@ input[type="radio"].visually-hidden {
     width: 940px;
     margin: 0 auto;
     padding: 0;
-    font-family: 'Cuprum', Arial, sans-serif;
+    font-family: "Cuprum", Arial, sans-serif;
     background-color: #32425c;
 }
 
@@ -982,7 +982,7 @@ input[type="radio"].visually-hidden {
 }
 
  .perf {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 18px;
     line-height: 20px;
     color: #000000;
@@ -1377,7 +1377,7 @@ input[type="radio"].visually-hidden {
     margin-left: 55px;
    
     list-style: none;
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
 }
 
 .breadcrumbs li {
@@ -1448,7 +1448,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-name {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
     line-height: 18px;
     text-transform: uppercase;
@@ -1478,7 +1478,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-range-title {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     margin-bottom: 18px;
 
     font-size: 17px;
@@ -1518,7 +1518,7 @@ input[type="radio"].visually-hidden {
 }
 
 .price-controls label {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     display: inline-block;
 
     vertical-align: middle;
@@ -1633,7 +1633,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter legend {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 17px;
     line-height: 30px;
     color: #000000;
@@ -1651,7 +1651,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-option {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     margin-bottom: 10px;
     padding-left: 35px;
 }
@@ -1758,7 +1758,7 @@ input[type="radio"].visually-hidden {
 }
 
 .button-filter {    
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
     color: #000000;
     background-color: transparent;
@@ -1787,7 +1787,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-sorting {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     padding-right: 135px;
 }
 
@@ -1796,7 +1796,7 @@ input[type="radio"].visually-hidden {
 }
 
 .sorting-type {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     color: rgba(0, 0, 0, 0.3);
     border-bottom: 1px dotted #ee3643;
 
@@ -2059,7 +2059,7 @@ input[type="radio"].visually-hidden {
 
 .catalog-item .old-price,
 .catalog-item .price-buy {
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 17px;
     line-height: 18px;
     display: block;
@@ -2228,7 +2228,7 @@ input[type="radio"].visually-hidden {
 .pagination-item a{
     display: block;
     padding: 9px 14px;
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 13px;
     line-height: 18px;
     text-transform: uppercase;
@@ -2286,7 +2286,7 @@ input[type="radio"].visually-hidden {
     padding-bottom: 70px;
     font-size: 13px;
     line-height: 24px;
-    font-family: 'PT Sans', Arial, sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
 }
 
 .continue {

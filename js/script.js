@@ -3,7 +3,10 @@ var link = document.querySelector(".button-write");
 var popup = document.querySelector(".modal-review");
 var close = popup.querySelector(".modal-close");
 
+var form = popup.querySelector("form");
 var yourname = popup.querySelector("[name=yourname]");
+var mail = popup.querySelector("[name=mail]");
+var yourtext = popup.querySelector("[name=yourtext]");
 
 link.addEventListener("click", function (evt) {
     evt.preventDefault();
@@ -24,6 +27,10 @@ window.addEventListener("keydown", function (evt) {
         }
     }
 });
+
+form.addEventListener("submit", function (evt) {
+    evt.preventDefault();
+  });
 
 
 var mapLink = document.querySelector(".open-map");
